@@ -32,4 +32,31 @@ section#telefone{
     width: 311px;
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
+    
+    
+}
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 21px;
+    width: 266px;
+    height: 470px;
+}
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img:hover{
+border: 2px solid transparent;
+transform: translate(-3px,-3px);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.43);
+transition-duration: 0.2s;
+
+
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
 }
