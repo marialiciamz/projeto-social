@@ -21,3 +21,6 @@ text-decoration: none;
 color: white;
 padding: 20px;
 } 
+a:hover{
+    background-color: red;
+}
